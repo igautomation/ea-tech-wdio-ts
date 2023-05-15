@@ -6,10 +6,10 @@ Author
 Muhammad Imran
 Email: muhammadghouseimran.zahirudeen@cognizant.com
 
-Test case written using the Mocha testing framework with WebDriverIO for testing an iOS app. Let's go through the code to understand its functionality:
+# Test case written using the Mocha testing framework with WebDriverIO for testing an iOS app. Let's go through the code to understand its functionality:
 
 1. Importing Dependencies:
-   ```javascript
+   ```TypeScript
    import { assert } from 'chai';
    import { validateApiResponse } from '/Users/immi/Desktop/ea-tech-wdio-sample/src/test/api/api.ts';
    ```
@@ -17,7 +17,7 @@ Test case written using the Mocha testing framework with WebDriverIO for testing
    - It also imports the `validateApiResponse` function from the specified file (`'/Users/immi/Desktop/ea-tech-wdio-sample/src/test/api/api.ts'`). This function likely contains the API response data that will be used for validation.
 
 2. Describe and Test Block:
-   ```javascript
+   ```TypeScript
    describe('iOS App Test', () => {
      it('should validate the response in the iOS app', async () => {
        // Test logic goes here
@@ -29,7 +29,7 @@ Test case written using the Mocha testing framework with WebDriverIO for testing
    - The test case is an async function that contains the logic for validating the response in the iOS app.
 
 3. Locating Elements:
-   ```javascript
+   ```TypeScript
    const bandsListEle = 'type == \"XCUIElementTypeCollectionView\"';
    const bandsList = await $(`-ios predicate string:${bandsListEle}`);
 
@@ -37,11 +37,10 @@ Test case written using the Mocha testing framework with WebDriverIO for testing
    const displayedBands = await $$(`-ios predicate string:${displayedBandsEle}`);
    ```
    - The code defines two variables, `bandsListEle` and `displayedBandsEle`, which represent the element locators.
-   - It uses WebDriverIO's `$` and `$$` functions with `-ios predicate string` to locate elements based on the provided predicates.
    - The located elements are stored in `bandsList` and `displayedBands` variables, respectively.
 
 4. Validation:
-   ```javascript
+   ```TypeScript
    // Validate the number of bands in the app
    assert.equal(displayedBands.length, validateApiResponse.length, 'Number of displayed bands should match the API response');
 
@@ -61,5 +60,3 @@ Test case written using the Mocha testing framework with WebDriverIO for testing
    - Then, it enters a loop to validate each band and its child item as a festival.
    - Inside the loop, it retrieves the band name and festival text using element locators and WebDriverIO's `getText()` method.
    - It compares the retrieved values with the corresponding values in the `validateApiResponse` array using `assert.equal` assertions.
-
-Overall, this code represents a test case that validates the response in an iOS app by comparing the displayed bands and their child items with the expected API response data.
