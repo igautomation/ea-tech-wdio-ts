@@ -1,0 +1,32 @@
+{
+  "name": "my-new-project",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.10.2",
+    "@wdio/appium-service": "^8.10.2",
+    "@wdio/cli": "^8.10.2",
+    "@wdio/local-runner": "^8.10.2",
+    "@wdio/mocha-framework": "^8.10.2",
+    "@wdio/spec-reporter": "^8.10.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "wdio-wait-for": "^3.0.4"
+  },
+  "scripts": {
+    "android": "wdio run ./src/config/wdio.conf.android.ts",
+    "ios": "wdio run ./src/config/wdio.conf.ios.ts"
+  },
+  "dependencies": {
+    "@types/webdriverio": "^5.0.0",
+    "appium": "^1.22.3",
+    "axios": "^1.4.0",
+    "chai": "^4.3.7",
+    "webdriverio": "^8.10.2"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

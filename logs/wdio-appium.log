@@ -1,0 +1,142 @@
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:avd":"Pixel_6_Pro","appium:systemPort":7878,"appium:app":"/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk","appium:autoGrantPermissions":true,"appium:noReset":false,"appium:fullReset":true,"appium:androidInstallTimeout":60000,"appium:newCommandTimeout":60000,"appium:avdLaunchTimeout":120000,"appium:appPackage":"com.energyaustralia.codingtestsample","appium:appActivity":"com.energyaustralia.codingtestsample.MainActivity"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:avd":"Pixel_6_Pro","appium:systemPort":7878,"appium:app":"/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk","appium:autoGrantPermissions":true,"appium:noReset":false,"appium:fullReset":true,"appium:androidInstallTimeout":60000,"a...[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:avd":"Pixel_6_Pro","appium:systemPort":7878,"appium:app":"/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk","appium:autoGrantPermissions":true,"appium:noReset":false,"appium:fullReset":true,"appium:androidInstallTimeout":60000,"appium:newCommandTimeout":60000,"appium:avdLaunchTimeout":120000,"appium:appPackage":"com.energyaustralia.codingtestsample","appium:appActivity":"com.energyaustralia.codingtestsample.MainActivity"},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:avd":"Pixel_6_Pro","appium:systemPort":7878,"appium:app":"/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk","appium:autoGrantPermissions":true,"appium:noReset":false,"appium:fullReset":true,"appium:androidInstallTimeout":60000,"appium:newCommandTimeout":60000,"appium:avdLaunchTim...
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1684152016788 (17:30:16 GMT+0530 (India Standard Time))
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "Pixel 6 Pro",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "11",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:avd": "Pixel_6_Pro",
+[debug] [35m[BaseDriver][39m     "appium:systemPort": 7878,
+[debug] [35m[BaseDriver][39m     "appium:app": "/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk",
+[debug] [35m[BaseDriver][39m     "appium:autoGrantPermissions": true,
+[debug] [35m[BaseDriver][39m     "appium:noReset": false,
+[debug] [35m[BaseDriver][39m     "appium:fullReset": true,
+[debug] [35m[BaseDriver][39m     "appium:androidInstallTimeout": 60000,
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 60000,
+[debug] [35m[BaseDriver][39m     "appium:avdLaunchTimeout": 120000,
+[debug] [35m[BaseDriver][39m     "appium:appPackage": "com.energyaustralia.codingtestsample",
+[debug] [35m[BaseDriver][39m     "appium:appActivity": "com.energyaustralia.codingtestsample.MainActivity"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: dafe59cd-2173-427b-99d4-29d41ee0b128
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1684152016871 (17:30:16 GMT+0530 (India Standard Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: The application at '/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk' does not exist or is not accessible
+[debug] [35m[W3C][39m     at /Users/immi/Desktop/ea-tech-wdio-ts/node_modules/appium/node_modules/appium-base-driver/build/lib/basedriver/lib/basedriver/helpers.js:234:13
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m89 ms - 807[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:avd":"Pixel_6_Pro","appium:systemPort":7878,"appium:app":"/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk","appium:autoGrantPermissions":true,"appium:noReset":false,"appium:fullReset":true,"appium:androidInstallTimeout":60000,"appium:newCommandTimeout":60000,"appium:avdLaunchTimeout":120000,"appium:appPackage":"com.energyaustralia.codingtestsample","appium:appActivity":"com.energyaustralia.codingtestsample.MainActivity"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:avd":"Pixel_6_Pro","appium:systemPort":7878,"appium:app":"/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk","appium:autoGrantPermissions":true,"appium:noReset":false,"appium:fullReset":true,"appium:androidInstallTimeout":60000,"a...[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:avd":"Pixel_6_Pro","appium:systemPort":7878,"appium:app":"/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk","appium:autoGrantPermissions":true,"appium:noReset":false,"appium:fullReset":true,"appium:androidInstallTimeout":60000,"appium:newCommandTimeout":60000,"appium:avdLaunchTimeout":120000,"appium:appPackage":"com.energyaustralia.codingtestsample","appium:appActivity":"com.energyaustralia.codingtestsample.MainActivity"},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:avd":"Pixel_6_Pro","appium:systemPort":7878,"appium:app":"/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk","appium:autoGrantPermissions":true,"appium:noReset":false,"appium:fullReset":true,"appium:androidInstallTimeout":60000,"appium:newCommandTimeout":60000,"appium:avdLaunchTim...
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1684152016883 (17:30:16 GMT+0530 (India Standard Time))
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "Pixel 6 Pro",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "11",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:avd": "Pixel_6_Pro",
+[debug] [35m[BaseDriver][39m     "appium:systemPort": 7878,
+[debug] [35m[BaseDriver][39m     "appium:app": "/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk",
+[debug] [35m[BaseDriver][39m     "appium:autoGrantPermissions": true,
+[debug] [35m[BaseDriver][39m     "appium:noReset": false,
+[debug] [35m[BaseDriver][39m     "appium:fullReset": true,
+[debug] [35m[BaseDriver][39m     "appium:androidInstallTimeout": 60000,
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 60000,
+[debug] [35m[BaseDriver][39m     "appium:avdLaunchTimeout": 120000,
+[debug] [35m[BaseDriver][39m     "appium:appPackage": "com.energyaustralia.codingtestsample",
+[debug] [35m[BaseDriver][39m     "appium:appActivity": "com.energyaustralia.codingtestsample.MainActivity"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: 1c56bfd2-7c17-42f8-ba35-5ee874cb0e58
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1684152016886 (17:30:16 GMT+0530 (India Standard Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: The application at '/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk' does not exist or is not accessible
+[debug] [35m[W3C][39m     at /Users/immi/Desktop/ea-tech-wdio-ts/node_modules/appium/node_modules/appium-base-driver/build/lib/basedriver/lib/basedriver/helpers.js:234:13
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m4 ms - 807[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:avd":"Pixel_6_Pro","appium:systemPort":7878,"appium:app":"/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk","appium:autoGrantPermissions":true,"appium:noReset":false,"appium:fullReset":true,"appium:androidInstallTimeout":60000,"appium:newCommandTimeout":60000,"appium:avdLaunchTimeout":120000,"appium:appPackage":"com.energyaustralia.codingtestsample","appium:appActivity":"com.energyaustralia.codingtestsample.MainActivity"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:avd":"Pixel_6_Pro","appium:systemPort":7878,"appium:app":"/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk","appium:autoGrantPermissions":true,"appium:noReset":false,"appium:fullReset":true,"appium:androidInstallTimeout":60000,"a...[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:avd":"Pixel_6_Pro","appium:systemPort":7878,"appium:app":"/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk","appium:autoGrantPermissions":true,"appium:noReset":false,"appium:fullReset":true,"appium:androidInstallTimeout":60000,"appium:newCommandTimeout":60000,"appium:avdLaunchTimeout":120000,"appium:appPackage":"com.energyaustralia.codingtestsample","appium:appActivity":"com.energyaustralia.codingtestsample.MainActivity"},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:avd":"Pixel_6_Pro","appium:systemPort":7878,"appium:app":"/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk","appium:autoGrantPermissions":true,"appium:noReset":false,"appium:fullReset":true,"appium:androidInstallTimeout":60000,"appium:newCommandTimeout":60000,"appium:avdLaunchTim...
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1684152016889 (17:30:16 GMT+0530 (India Standard Time))
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "Pixel 6 Pro",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "11",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:avd": "Pixel_6_Pro",
+[debug] [35m[BaseDriver][39m     "appium:systemPort": 7878,
+[debug] [35m[BaseDriver][39m     "appium:app": "/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk",
+[debug] [35m[BaseDriver][39m     "appium:autoGrantPermissions": true,
+[debug] [35m[BaseDriver][39m     "appium:noReset": false,
+[debug] [35m[BaseDriver][39m     "appium:fullReset": true,
+[debug] [35m[BaseDriver][39m     "appium:androidInstallTimeout": 60000,
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 60000,
+[debug] [35m[BaseDriver][39m     "appium:avdLaunchTimeout": 120000,
+[debug] [35m[BaseDriver][39m     "appium:appPackage": "com.energyaustralia.codingtestsample",
+[debug] [35m[BaseDriver][39m     "appium:appActivity": "com.energyaustralia.codingtestsample.MainActivity"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: 23621427-da08-4a06-b46c-87a560cfc049
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1684152016892 (17:30:16 GMT+0530 (India Standard Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: The application at '/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk' does not exist or is not accessible
+[debug] [35m[W3C][39m     at /Users/immi/Desktop/ea-tech-wdio-ts/node_modules/appium/node_modules/appium-base-driver/build/lib/basedriver/lib/basedriver/helpers.js:234:13
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m3 ms - 807[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:avd":"Pixel_6_Pro","appium:systemPort":7878,"appium:app":"/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk","appium:autoGrantPermissions":true,"appium:noReset":false,"appium:fullReset":true,"appium:androidInstallTimeout":60000,"appium:newCommandTimeout":60000,"appium:avdLaunchTimeout":120000,"appium:appPackage":"com.energyaustralia.codingtestsample","appium:appActivity":"com.energyaustralia.codingtestsample.MainActivity"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:avd":"Pixel_6_Pro","appium:systemPort":7878,"appium:app":"/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk","appium:autoGrantPermissions":true,"appium:noReset":false,"appium:fullReset":true,"appium:androidInstallTimeout":60000,"a...[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:avd":"Pixel_6_Pro","appium:systemPort":7878,"appium:app":"/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk","appium:autoGrantPermissions":true,"appium:noReset":false,"appium:fullReset":true,"appium:androidInstallTimeout":60000,"appium:newCommandTimeout":60000,"appium:avdLaunchTimeout":120000,"appium:appPackage":"com.energyaustralia.codingtestsample","appium:appActivity":"com.energyaustralia.codingtestsample.MainActivity"},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"11","appium:automationName":"UiAutomator2","appium:avd":"Pixel_6_Pro","appium:systemPort":7878,"appium:app":"/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk","appium:autoGrantPermissions":true,"appium:noReset":false,"appium:fullReset":true,"appium:androidInstallTimeout":60000,"appium:newCommandTimeout":60000,"appium:avdLaunchTim...
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1684152016894 (17:30:16 GMT+0530 (India Standard Time))
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "Pixel 6 Pro",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "11",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:avd": "Pixel_6_Pro",
+[debug] [35m[BaseDriver][39m     "appium:systemPort": 7878,
+[debug] [35m[BaseDriver][39m     "appium:app": "/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk",
+[debug] [35m[BaseDriver][39m     "appium:autoGrantPermissions": true,
+[debug] [35m[BaseDriver][39m     "appium:noReset": false,
+[debug] [35m[BaseDriver][39m     "appium:fullReset": true,
+[debug] [35m[BaseDriver][39m     "appium:androidInstallTimeout": 60000,
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 60000,
+[debug] [35m[BaseDriver][39m     "appium:avdLaunchTimeout": 120000,
+[debug] [35m[BaseDriver][39m     "appium:appPackage": "com.energyaustralia.codingtestsample",
+[debug] [35m[BaseDriver][39m     "appium:appActivity": "com.energyaustralia.codingtestsample.MainActivity"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: 71cac687-cc38-41fd-81af-bfbc45019d33
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1684152016896 (17:30:16 GMT+0530 (India Standard Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: The application at '/Users/immi/Desktop/ea-tech-wdio-ts/app/RecordLabelApp.apk' does not exist or is not accessible
+[debug] [35m[W3C][39m     at /Users/immi/Desktop/ea-tech-wdio-ts/node_modules/appium/node_modules/appium-base-driver/build/lib/basedriver/lib/basedriver/helpers.js:234:13
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m3 ms - 807[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Received SIGTERM - shutting down
+[debug] [35m[Appium][39m There are no active sessions for cleanup

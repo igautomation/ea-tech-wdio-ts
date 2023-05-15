@@ -1,0 +1,7 @@
+2023-05-15T12:00:15.642Z INFO @wdio/cli:launcher: Run onPrepare hook
+2023-05-15T12:00:16.150Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2023-05-15T12:00:16.150Z INFO @wdio/local-runner: Start worker 0-0 with arg: run,./src/config/wdio.conf.android.ts
+2023-05-15T12:00:17.010Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2023-05-15T12:00:17.010Z INFO @wdio/cli:launcher: Run onComplete hook
+2023-05-15T12:00:17.032Z INFO @wdio/local-runner: Shutting down spawned worker
+2023-05-15T12:00:17.283Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
