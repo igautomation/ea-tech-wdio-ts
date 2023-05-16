@@ -6,7 +6,7 @@ Author
 Muhammad Imran
 Email: muhammadghouseimran.zahirudeen@cognizant.com
 
-# Test case written using the Mocha testing framework with WebDriverIO for testing an iOS app. Let's go through the code to understand its functionality:
+# Test case written using the Mocha testing framework with WebDriverIO for testing an iOS app.
 
 1. Importing Dependencies:
    ```TypeScript
