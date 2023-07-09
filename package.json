@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@types/webdriverio": "^5.0.0",
-    "appium": "^1.22.3",
+    "appium": "^2.0.0",
     "axios": "^1.4.0",
     "chai": "^4.3.7",
     "webdriverio": "^8.10.2"
